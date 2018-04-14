@@ -67,12 +67,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Vacanze con la nonna</span>
-<span class="de">Ferien mit Großmutter</span>
-<span class="en">Holidays with grandmother</span>
+			<span class="l1"></span>
+			<span class="l2"></span>
 			<div class="btn-group">
 				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton" onclick="playpause('')" title="Play/pause"><i class="icon-volume-up"></i></button>
+				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="http://globalstorybooks.net/media/audio/it/0243/mp3/01.mp3"></audio>
+				<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+				<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von" width="38px"></span> Violet Otieno</h3>
@@ -82,13 +84,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache" width="38px"></span> <a href="/storybooks-deutschland/stories/it">Italienisch</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-deutschland/stories/it/level4">Level 4</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="http://globalstorybooks.net/media/audio/it/0243/it-0243_holidays.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
 
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Odongo e Apiyo vivevano in città con loro padre. Non vedevano l'ora delle vacanze. Non solo perché la scuola chiudeva, ma perché sarebbero andati a visitare la loro nonna. Lei viveva in un villaggio di pescatori vicino ad un grande lago.
 	</h3></div>
 
@@ -114,8 +118,8 @@ near a large lake.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -124,7 +128,8 @@ near a large lake.
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Odongo e Apiyo erano emozionati perché era ora di visitare la nonna di nuovo. La notte prima, prepararono le valigie e si prepararono al lungo viaggio che li avrebbe portati al villaggio.
 	</h3></div>
 
@@ -150,8 +155,8 @@ holiday.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -160,7 +165,8 @@ holiday.
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	La mattina dopo, molto presto, partirono per il villaggio nella macchina del papà. Guidarono attraverso montagne, animali selvaggi e piantagioni di tè. Contarono le macchine e cantarono canzoni.
 	</h3></div>
 
@@ -185,8 +191,8 @@ songs.
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -195,7 +201,8 @@ songs.
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Dopo un po', i bambini erano stanchi e si addormentarono.
 	</h3></div>
 
@@ -214,8 +221,8 @@ tired and fell asleep.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -224,7 +231,8 @@ tired and fell asleep.
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Papà svegliò Odongo e Apiyo appena arrivarono al villaggio. Trovarono Nyar-Kanyada, la loro nonna, mentre riposava su un tappeto sotto un albero. Nyar-Kanyada in Luo significa "Figlia della gente di Kanyada". Era una donna forte e bellissima.
 	</h3></div>
 
@@ -252,8 +260,8 @@ woman.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -262,7 +270,8 @@ woman.
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Nyar-Kanyada diede loro il benvenuto nella sua casa e ballò intorno alla stanza cantando con gioia. I suoi nipotini erano emozionati di darle regali che le avevano portato dalla città. "Prima apri il mio regalo," disse Odongo. "No, prima il mio!" disse Apiyo.
 	</h3></div>
 
@@ -289,8 +298,8 @@ Odongo.
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -299,7 +308,8 @@ Odongo.
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Dopo che aprì i regali, Nyar-Kanyada benedì i suoi nipotini nel modo tradizionale.
 	</h3></div>
 
@@ -320,8 +330,8 @@ way.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -330,7 +340,8 @@ way.
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Poi Odongo e Apiyo uscirono in giardino. Inseguirono farfalle e uccellini.
 	</h3></div>
 
@@ -350,8 +361,8 @@ and birds.
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -360,7 +371,8 @@ and birds.
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Si arrampicarono sugli alberi e si schizzarono con l'acqua del lago.
 	</h3></div>
 
@@ -380,8 +392,8 @@ lake.
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -390,7 +402,8 @@ lake.
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Quando diventò buio, tornarono a casa per cena. Prima che potessero finire di mangiare, si stavano per addormentare!
 	</h3></div>
 
@@ -411,8 +424,8 @@ they were falling asleep!
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -421,7 +434,8 @@ they were falling asleep!
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Il giorno seguente, il papà ripartì per tornare in città, lasciando i bambini con Nyar-Kanyada.
 	</h3></div>
 
@@ -441,8 +455,8 @@ leaving them with Nyar-Kanyada.
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -451,7 +465,8 @@ leaving them with Nyar-Kanyada.
 
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/13.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Odongo e Apiyo aiutarono la nonna con le faccende di casa. Andarono a prendere l'acqua e la legna per il fuoco. Raccolsero le uova dalle galline e le verdure dal giardino.
 	</h3></div>
 
@@ -476,8 +491,8 @@ from the garden.
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -486,7 +501,8 @@ from the garden.
 
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/14.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Nyar-Kanyada insegnò ai suoi nipotini come fare soffici ugali da mangiare con lo stufato. Mostrò loro come fare il riso al cocco da mangiare con il pesce arrosto.
 	</h3></div>
 
@@ -509,8 +525,8 @@ fish.
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -519,7 +535,8 @@ fish.
 
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/15.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Una mattina, Odongo portò le mucche di sua nonna a pascolare. Incapparono nella fattoria del vicino. Il contadino era arrabbiato con Odongo. Lo minacciò di tenersi le mucche per aver mangiato il suo raccolto. Dopo quel giorno il bambino si assicurò che le mucche non finissero di nuovo nei guai.
 	</h3></div>
 
@@ -546,8 +563,8 @@ into trouble again.
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -556,7 +573,8 @@ into trouble again.
 
 <div id="text16" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/16.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Un altro giorno, i bambini andarono al mercato con Nyar-Kanyada. Lei aveva una bancarella che vendeva verdure, zucchero e sale. Ad Apiyo piaceva dire ai clienti i prezzi della merce. Odongo preparava i sacchetti con le cose che i clienti avevano comprato.
 	</h3></div>
 
@@ -582,8 +600,8 @@ that customers bought.
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -592,7 +610,8 @@ that customers bought.
 
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/17.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Alla fine della giornata bevvero tè chai insieme. Aiutarono la nonna a contare i soldi che aveva guadagnato.
 	</h3></div>
 
@@ -613,8 +632,8 @@ count the money she earned.
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -623,7 +642,8 @@ count the money she earned.
 
 <div id="text18" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/18.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Ma troppo presto le vacanze finirono e i bambini dovettero tornare in città. Nyar-Kanyada diede a Odongo un cappello e ad Apiyo una felpa. Preparò del cibo per il loro viaggio.
 	</h3></div>
 
@@ -647,8 +667,8 @@ journey.
 		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -657,7 +677,8 @@ journey.
 
 <div id="text19" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/19.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Quando il padre arrivò a prenderli, loro non volevano andarsene. I bimbi pregarono Nyar-Kanyada di andare con loro in città. Lei sorrise e disse "Sono troppo vecchia per la città. Aspetterò che veniate a trovarmi di nuovo al mio villaggio."
 	</h3></div>
 
@@ -683,8 +704,8 @@ again."
 		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -693,7 +714,8 @@ again."
 
 <div id="text20" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/20.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Odongo e Apiyo la abbracciarono forte e la salutarono.
 	</h3></div>
 
@@ -712,8 +734,8 @@ her tightly and said goodbye.
 		<button class="btn btn-lg" id="playbutton20" onclick="playpause('20')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 
@@ -722,7 +744,8 @@ her tightly and said goodbye.
 
 <div id="text21" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/21.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Quando Odongo e Apiyo tornarono a scuola, raccontarono ai loro amici della vita nel villaggio. Alcuni bambini pensarono che la vita in città fosse bella. Altri pensarono che il villaggio fosse meglio. Ma soprattutto, tutti concordarono sul fatto che Odongo e Apiyo avessero una nonna fantastica!
 	</h3></div>
 
@@ -749,8 +772,8 @@ had a wonderful grandmother!
 		<button class="btn btn-lg" id="playbutton21" onclick="playpause('21')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('it','de')" class="btn btn-lg lang-de" title="Switch between Italian and German">de</button>
-		<button onclick="switchlang('it','en')" class="btn btn-lg lang-en" title="Switch between Italian and English">en</button>
+		<button onclick="switchlang('it,de','de,en,it')" class="btn btn-lg lang-primary" title="Switch between Italian and German">de</button>
+		<button onclick="switchlang('it,en','de,en,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and English">en</button>
 	</div>
 </div>
 

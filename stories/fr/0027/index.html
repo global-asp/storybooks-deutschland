@@ -67,12 +67,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">La décision</span>
-<span class="de">Entscheidung</span>
-<span class="en">Decision</span>
+			<span class="l1"></span>
+			<span class="l2"></span>
 			<div class="btn-group">
 				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton" onclick="playpause('')" title="Play/pause"><i class="icon-volume-up"></i></button>
+				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="http://globalstorybooks.net/media/audio/fr/0027/mp3/01.mp3"></audio>
+				<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+				<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von" width="38px"></span> Ursula Nafula</h3>
@@ -82,13 +84,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache" width="38px"></span> <a href="/storybooks-deutschland/stories/fr">Französisch</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-deutschland/stories/fr/level2">Level 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="http://globalstorybooks.net/media/audio/fr/0027/fr-0027_decision.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
 
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Mon village avait plusieurs problèmes. Nous faisions la file pour aller chercher de l'eau d'un seul robinet.
 	</h3></div>
 
@@ -108,8 +112,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -118,7 +122,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Nous attendions la nourriture donnée par les autres.
 	</h3></div>
 
@@ -136,8 +141,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -146,7 +151,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Nous avions barré nos maisons tôt à cause des voleurs.
 	</h3></div>
 
@@ -164,8 +170,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -174,7 +180,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Plusieurs enfants avaient lâché l'école.
 	</h3></div>
 
@@ -192,8 +199,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -202,7 +209,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Les jeunes filles travaillaient comme domestiques dans d'autres villages.
 	</h3></div>
 
@@ -220,8 +228,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -230,7 +238,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Les jeunes garçons se promenaient autour du village pendant que d'autres travaillaient sur des fermes.
 	</h3></div>
 
@@ -248,8 +257,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -258,7 +267,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Quand le vent soufflait, des déchets de papier pendaient des arbres et des clôtures.
 	</h3></div>
 
@@ -276,8 +286,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -286,7 +296,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Les gens se faisaient couper par de la vitre brisée lancée sans faire attention.
 	</h3></div>
 
@@ -304,8 +315,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -314,7 +325,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Puis un jour, le robinet se tarit et nos conteneurs étaient vides.
 	</h3></div>
 
@@ -332,8 +344,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -342,7 +354,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Mon père marcha de maison en maison et demanda aux gens de participer à une réunion du village.
 	</h3></div>
 
@@ -360,8 +373,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -370,7 +383,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Les gens se recueillirent sous un grand arbre et écoutèrent.
 	</h3></div>
 
@@ -388,8 +402,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -398,7 +412,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/13.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Mon père se leva et dit, «&nbsp;Nous devons travailler ensemble pour résoudre nos problèmes.&nbsp;»
 	</h3></div>
 
@@ -416,8 +431,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -426,7 +441,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/14.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Juma, âgée de huit ans et assise sur un tronc d'arbre, cria, «&nbsp;Je peux aider à nettoyer.&nbsp;»
 	</h3></div>
 
@@ -444,8 +460,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -454,7 +470,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/15.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Une femme dit, «&nbsp;Les femmes peuvent me joindre pour cultiver de la nourriture.&nbsp;»
 	</h3></div>
 
@@ -472,8 +489,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -482,7 +499,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text16" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/16.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Un autre homme se leva et dit, «&nbsp;Les hommes creuseront un puits.&nbsp;»
 	</h3></div>
 
@@ -500,8 +518,8 @@ We made a long line to fetch water from one tap.
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -510,7 +528,8 @@ We made a long line to fetch water from one tap.
 
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/17.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+
 	Nous criions tous avec une voix, «&nbsp;Nous devons changer nos vies.&nbsp;» Depuis ce jour, nous avons travaillé ensemble pour résoudre nos problèmes.
 	</h3></div>
 
@@ -530,8 +549,8 @@ From that day we worked together to solve our problems.
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 

@@ -67,12 +67,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Que va dire la sœur de Vusi&nbsp;?</span>
-<span class="de">Was Vusis Schwester sagte</span>
-<span class="en">What Vusi's sister said</span>
+			<span class="l1"></span>
+			<span class="l2"></span>
 			<div class="btn-group">
 				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton" onclick="playpause('')" title="Play/pause"><i class="icon-volume-up"></i></button>
+				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="http://globalstorybooks.net/media/audio/fr/0291/mp3/01.mp3"></audio>
+				<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+				<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von" width="38px"></span> Nina Orange</h3>
@@ -82,13 +84,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache" width="38px"></span> <a href="/storybooks-deutschland/stories/fr">Französisch</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-deutschland/stories/fr/level4">Level 4</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="http://globalstorybooks.net/media/audio/fr/0291/fr-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
 
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Un matin de bonne heure, Vusi est
 appelé par sa grand-mère, «&nbsp;Vusi, s'il
 te plaît, peux tu amener cet œuf à
@@ -115,8 +119,8 @@ wedding".
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -125,7 +129,8 @@ wedding".
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	En allant chez ses parents, Vusi
 rencontra deux garçons en train de
 cueillir des fruits. Un des garçons
@@ -150,8 +155,8 @@ it at a tree. The egg broke.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -160,7 +165,8 @@ it at a tree. The egg broke.
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	«&nbsp;Qu'as-tu fait&nbsp;?&nbsp;» cria Vusi. «&nbsp;Cet œuf
 était pour un gâteau, le gâteau du
 mariage de ma sœur. Que va dire
@@ -186,8 +192,8 @@ wedding cake?"
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -196,7 +202,8 @@ wedding cake?"
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Les garçons étaient désolés d'avoir
 taquiné Vusi.
 «&nbsp;Nous ne pouvons rien faire pour le
@@ -224,8 +231,8 @@ Vusi continued on his journey.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -234,7 +241,8 @@ Vusi continued on his journey.
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	En chemin, il rencontra deux
 hommes, qui construisaient une
 maison. «&nbsp;Pouvons-nous utiliser ce
@@ -262,8 +270,8 @@ for building, and it broke.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -272,7 +280,8 @@ for building, and it broke.
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	«&nbsp;Qu'avez-vous fait&nbsp;?&nbsp;» s'écria Vusi.
 «&nbsp;Ce bâton était un cadeau pour ma
 sœur. Les cueilleurs de fruits m'ont
@@ -306,8 +315,8 @@ sister say?"
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -316,7 +325,8 @@ sister say?"
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Les constructeurs étaient désolés
 d'avoir brisé le bâton.
 «&nbsp;Nous ne pouvons rien faire pour le
@@ -345,8 +355,8 @@ journey.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -355,7 +365,8 @@ journey.
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Sur le chemin, Vusi rencontra un
 fermier et une vache. «&nbsp;Quel foin
 délicieux, est-ce que je peux en
@@ -383,8 +394,8 @@ cow ate it all!
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -393,7 +404,8 @@ cow ate it all!
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	«&nbsp;Qu'as-tu fait&nbsp;?&nbsp;» s'écria Vusi.
 «&nbsp;Ce foin était un cadeau pour ma
 sœur. Les constructeurs m'ont
@@ -432,8 +444,8 @@ sister say?"
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -442,7 +454,8 @@ sister say?"
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	La vache était désolée d'avoir été si
 gourmande. Le fermier décida que
 la vache devait accompagner Vusi
@@ -467,8 +480,8 @@ sister. And so Vusi carried on.
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -477,7 +490,8 @@ sister. And so Vusi carried on.
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	Mais là l'heure du souper la vache
 s'échappa et retourna chez le
 fermier. Et Vusi se perdit en chemin.
@@ -505,8 +519,8 @@ eating.
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -515,7 +529,8 @@ eating.
 
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/13.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	«&nbsp;Que dois-je faire&nbsp;?&nbsp;» s'écria Vusi.
 «&nbsp;La vache qui s'est enfuie était un
 cadeau, en échange du foin, que les
@@ -555,8 +570,8 @@ gift."
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -565,7 +580,8 @@ gift."
 
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/14.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+
 	La sœur de Vusi réfléchit un
 moment, puis elle a dit,
 «&nbsp;Vusi mon frère, les cadeaux me
@@ -600,8 +616,8 @@ And so that's what Vusi did.
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fr','de')" class="btn btn-lg lang-de" title="Switch between French and German">de</button>
-		<button onclick="switchlang('fr','en')" class="btn btn-lg lang-en" title="Switch between French and English">en</button>
+		<button onclick="switchlang('fr,de','de,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and German">de</button>
+		<button onclick="switchlang('fr,en','de,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 

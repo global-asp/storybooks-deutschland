@@ -67,12 +67,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Симбегвайр</span>
-<span class="de">Simbegwire</span>
-<span class="en">Simbegwire</span>
+			<span class="l1"></span>
+			<span class="l2"></span>
 			<div class="btn-group">
 				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton" onclick="playpause('')" title="Play/pause"><i class="icon-volume-up"></i></button>
+				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="http://globalstorybooks.net/media/audio/ru/0052/mp3/01.mp3"></audio>
+				<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+				<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von" width="38px"></span> Rukia Nantale</h3>
@@ -81,13 +83,15 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache" width="38px"></span> <a href="/storybooks-deutschland/stories/ru">Russisch</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-deutschland/stories/ru/level5">Level 5</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="http://globalstorybooks.net/media/audio/ru/0052/ru-0052_simbegwire.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
 
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Когда мама Симбегвайр умерла, ей было очень грустно. Папа Симбегвайр делал всё для своей дочери. Они снова научились быть счастливыми без мамы Симбегвайр. Каждое утро они садились и говорили о том, что ждёт их сегодня . Каждый вечер они делали ужин вместе. Они мыли посуду, и папа Симбегвайр помогал ей с домашней работой.
 	</h3></div>
 
@@ -116,8 +120,8 @@ homework.
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -126,7 +130,8 @@ homework.
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Однажды папа Симбегвайр пришёл домой позже чем обычно. "Где ты, дочка?" позвал он. Симбегвайр побежала к своему отцу. Она остановилась когда увидела, что он держит за руку женцину. "Я хочу познакомить тебя с кем-то особенным, дочка. Это Анита," сказал он.
 	</h3></div>
 
@@ -152,8 +157,8 @@ smiling.
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -162,7 +167,8 @@ smiling.
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	"Привет, Симбегвайр, твой папа много говорил мне о тебе," сказала Анита. Но она не улыбнулась и не взяла девочку за руку. Папа Симбегвайр был счастлив и взволнован. Он говорил о том, как они будут жить втроём, и о том, какая у них будет хорошая жизнь. "Дочка, я надеюсь, Анита сможет стать тебе матерью," сказал он.
 	</h3></div>
 
@@ -189,8 +195,8 @@ mother," he said.
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -199,7 +205,8 @@ mother," he said.
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Жизнь Симбегвайр изменилась. Теперь у неё не было времени сидеть с папой по утрам. Анита давала ей так много работы по дому, что она уставала слишком сильно, чтобы делать уроки по вечерам. После ужина она сразу шла спать. Только разноцветное одеяло, которое мама подарила Симбегвайр, приносило ей радость. Папа Симбегвайр, похоже, не замечал, что его дочь была несчастлива.
 	</h3></div>
 
@@ -228,8 +235,8 @@ unhappy.
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -238,7 +245,8 @@ unhappy.
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Через несколько месяцев папа Симбегвайр сказал, что уезжает. "Мне нужно уехать по работе," сказал он. "Но я знаю, что вы присмотрите друг за другом." Симбегвайр поникла, но ее папа этого не заметил. Анита ничего не сказала. Она была недовольна.
 	</h3></div>
 
@@ -264,8 +272,8 @@ either.
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -274,7 +282,8 @@ either.
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Жизнь Симбегвайр стала хуже. Если она не доделывала работу по дому или жаловалась, Анита била её. А за ужином женщина съедала почти всё, и оставляла Симбегвайр только объедки. Каждый вечер Симбегвайр плакала перед сном, обнимая одеяльце своей мамы.
 	</h3></div>
 
@@ -300,8 +309,8 @@ blanket.
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -310,7 +319,8 @@ blanket.
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Однажды утром Симбегвайр проснулась позже чем обычно. "Ленивая девчонка!" закричала Анита. Она скинула Симбегвайр с кровати. Драгоценное одеяльце зацепилось за гвоздь и порвалось пополам.
 	</h3></div>
 
@@ -333,8 +343,8 @@ and tore in two.
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -343,7 +353,8 @@ and tore in two.
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Симбегвайр очень расстроилась. Она решила уйти из дома. Она взяла кусочки одеяла её мамы, взяла немного еды и ушла из дома. Она пошла по дороге, по которой уехал её папа.
 	</h3></div>
 
@@ -366,8 +377,8 @@ her father had taken.
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -376,7 +387,8 @@ her father had taken.
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Когда пришёл вечер, она забралась на дерево у ручья и сделала себе постель из веток. Засыпая она пела: "Мама, мама, мама, ты оставила меня. Ты ушла от меня и не вернулась. Папа меня больше не любит. Мама, когда же ты вернёшься? Ты оставила меня."
 	</h3></div>
 
@@ -404,8 +416,8 @@ You left me."
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -414,7 +426,8 @@ You left me."
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	На следующее утро Симбегвайр снова пропела эту песню. Когда женщины пришли стирать одежду в ручье, они услышали грустную песню, доносящуюся из высокого дерева. Они подумали, что это ветер шумел среди листьев и продолжили работать. Но одна из женщин прислушалась к песне.
 	</h3></div>
 
@@ -441,8 +454,8 @@ the song.
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -451,7 +464,8 @@ the song.
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Женщина посмотрела вверх на дерево. Когда она увидела девочку и кусочки разноцветного одеяльца, она заплакала, "Симбегвайр, дочка моего брата!" Другие женщины перестали стирать и помогли Симбегвайр спуститься с дерева. Её тетя обняла девочку и попыталась её успокоить.
 	</h3></div>
 
@@ -478,8 +492,8 @@ comfort her.
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -488,7 +502,8 @@ comfort her.
 
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/13.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Тётя Симбегвайр взяла девочку к себе домой. Она дала ей тёплой еды и укрыла её маминым одеяльцем. В этот вечер Симбегвайр плакала засыпая, но это были слезы облегчения. Она знала, что тётя о ней позаботится.
 	</h3></div>
 
@@ -514,8 +529,8 @@ look after her.
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -524,7 +539,8 @@ look after her.
 
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/14.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Когда папа Симбегвайр вернулся домой, он увидел, что комната девочки пуста. "Что случилось, Анита?" спросил он её неспокойно. Женщина объяснила, что Симбегвайр ушла из дома. "Я хотела, чтобы она уважала меня," сказала она. Но, наверное, я была слишком строга. Папа Симбегвайр вышел из дома и пошёл к ручью. Он пошёл дальше к деревне своей сестры, чтобы спросить, не видела ли она Симбегвайр.
 	</h3></div>
 
@@ -554,8 +570,8 @@ Simbegwire.
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -564,7 +580,8 @@ Simbegwire.
 
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/15.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Симбегвайр играла со своими братьями и сёстрами и увидела папу издалека. Она испугалась, что он рассердится и побежала в дом прятаться. Но её папа подошёл к ней и сказал: "Симбегвайр, ты нашла идеальную мать, которая любит и понимает тебя. Я горжусь тобой и люблю тебя." Они согласились, что Симбегвайр останется с тётей сколько пожелает.
 	</h3></div>
 
@@ -595,8 +612,8 @@ wanted to.
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -605,7 +622,8 @@ wanted to.
 
 <div id="text16" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/16.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	Её папа навещал её каждый день. Однажды он пришёл с Анитой. Она потянулась к Симбегвайр. "Прости, малыш, я была неправа," заплакала она. "Дашь мне попробовать ещё раз?" Симбегвайр посмотрела на взволнованное лицо отца. Она медленно шагнула навстречу и обняла Аниту.
 	</h3></div>
 
@@ -632,8 +650,8 @@ arms around Anita.
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
@@ -642,7 +660,8 @@ arms around Anita.
 
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/17.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 def"><h3>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
+
 	На следующей неделе Анита пригласила Симбегвайр с её братьями, сёстрами и тётей на ужин. Что это был за праздник! Анита приготовила любимые блюда Симбегвайр, и все ели досыта. Потом дети играли, а взрослые разговаривали. Симбегвайр чувствовала себя счастливо и храбро. Она решила что скоро, очень скоро она вернётся домой жить со своим папой и мачехой.
 	</h3></div>
 
@@ -671,8 +690,8 @@ her father and her stepmother.
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('ru','de')" class="btn btn-lg lang-de" title="Switch between Russian and German">de</button>
-		<button onclick="switchlang('ru','en')" class="btn btn-lg lang-en" title="Switch between Russian and English">en</button>
+		<button onclick="switchlang('ru,de','de,en,ru')" class="btn btn-lg lang-primary" title="Switch between Russian and German">de</button>
+		<button onclick="switchlang('ru,en','de,en,ru')" class="btn btn-lg lang-secondary" title="Switch between Russian and English">en</button>
 	</div>
 </div>
 
