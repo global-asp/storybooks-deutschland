@@ -75,7 +75,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-deutschland/stories/ckb" class="button">Zurück zur Geschichteliste</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-deutschland/stories/ckb">Zurück zur Geschichteliste</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0008/01.jpg"></div>
@@ -83,21 +83,21 @@
 		<h1><span class="def">چی دەكەی؟</span>
 			<span class="l1">Was tust du?</span>
 			<span class="l2">What are you doing?</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ckb/0008/mp3/01.mp3"></audio>
-				<button onclick="switchlang('ckb,de','de,en,ckb')" class="btn btn-lg lang-primary" title="Zwischen Kurdisch und Deutsch wechseln">de</button>
-				<button style="display:none" onclick="switchlang('ckb,en','de,en,ckb')" class="btn btn-lg lang-secondary" title="Zwischen Kurdisch und Englisch wechseln">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von" width="38px"></span> Nina Orange</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von" width="38px"></span> Agri Afshin</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache" width="38px"></span> <a href="/storybooks-deutschland/stories/ckb">Kurdisch</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Niveau" width="38px"></span> <a href="/storybooks-deutschland/stories/ckb/level1">Niveau 1</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ckb/0008/ckb-0008_what.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ckb/0008/mp3/01.mp3"></audio>
+			<button onclick="switchlang('ckb,de','de,en,ckb')" class="btn btn-lg lang-primary" title="Zwischen Kurdisch und Deutsch wechseln">de</button>
+			<button style="display:none" onclick="switchlang('ckb,en','de,en,ckb')" class="btn btn-lg lang-secondary" title="Zwischen Kurdisch und Englisch wechseln">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von"></span> Nina Orange</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von"></span> Agri Afshin</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache"></span> <a href="/storybooks-deutschland/stories/ckb">Kurdisch</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Niveau"></span> <a href="/storybooks-deutschland/stories/ckb/level1">Niveau 1</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ckb/0008/ckb-0008_what.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -343,7 +343,7 @@
 		<h5><a href="/storybooks-deutschland/stories/ckb/level1">Level 1</a></h5>
 		<h5>Quelle: <a href="https://africanstorybook.org/stories/7292" target="_blank">What are you doing?</a> aus <a href="https://africanstorybook.org/" target="_blank">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Dieses Werk ist unter einer <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.de">Creative Commons Namensnennung 3.0 International License</a> lizenziert.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.de" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Dieses Werk ist unter einer <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.de" target="_blank">Creative Commons Namensnennung 3.0 International License</a> lizenziert.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
