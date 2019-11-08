@@ -16,15 +16,14 @@
 	<meta name="description" content="Storybooks Deutschland is designed specifically for parents and teachers and makes 40 stories from the African Storybook available in German and English, as well as the most widely spoken immigrant and refugee languages of Canada (with text and audio in Arabic, Korean, Mandarin, Persian, Portuguese, Punjabi, Spanish, and Tagalog among other languages).
 ">
 	<link rel="stylesheet" href="/storybooks-deutschland/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-deutschland/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-deutschland/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-deutschland/stories/de/0030/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Deutschland" href="/storybooks-deutschland">
 	<script src="/storybooks-deutschland/js/sbc.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -87,18 +86,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0030/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-deutschland/audio/de/0030/mp3/01.mp3"></audio>
 			<button onclick="switchlang('de,de','de,en,de')" class="btn btn-lg lang-primary" title="Zwischen Deutsch und Deutsch wechseln">de</button>
 			<button style="display:none" onclick="switchlang('de,en','de,en,de')" class="btn btn-lg lang-secondary" title="Zwischen Deutsch und Englisch wechseln">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von"></span> Kathy Arbuckle, Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von"></span> Anna Westpfahl</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Gelesen von"><img class="cover-icon" src="/storybooks-deutschland/css/megaphone.svg" alt="Gelesen von"></span> Jula Eberth</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache"></span> <a href="/storybooks-deutschland/stories/de">Deutsch</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Niveau"></span> <a href="/storybooks-deutschland/stories/de/level1">Niveau 1</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0030/de-0030_feelings.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von"></span> Kathy Arbuckle, Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von"></span> Anna Westpfahl</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Gelesen von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/megaphone.svg" alt="Gelesen von"></span> Jula Eberth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/language.svg" alt="Sprache"></span> <a href="/storybooks-deutschland/stories/de">Deutsch</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/level.svg" alt="Niveau"></span> <a href="/storybooks-deutschland/stories/de/level1">Niveau 1</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon cover-icon-audio" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen"></span> <audio id="audioplayer" controls><source src="/0030/de-0030_feelings.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -291,8 +290,6 @@ mom gives me a hug.
 	<a class="btn btn-lg" href="/storybooks-deutschland/stories/de" class="button">Zurück zur Geschichteliste</a> <a class="btn btn-lg disabled" target="_blank" href="">Schaltfläche PDF</a>
 <br><br>
 </div>
-
-
 
     </div>
 

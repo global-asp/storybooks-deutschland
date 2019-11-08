@@ -16,15 +16,14 @@
 	<meta name="description" content="Storybooks Deutschland is designed specifically for parents and teachers and makes 40 stories from the African Storybook available in German and English, as well as the most widely spoken immigrant and refugee languages of Canada (with text and audio in Arabic, Korean, Mandarin, Persian, Portuguese, Punjabi, Spanish, and Tagalog among other languages).
 ">
 	<link rel="stylesheet" href="/storybooks-deutschland/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-deutschland/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-deutschland/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-deutschland/stories/vi/0129/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Deutschland" href="/storybooks-deutschland">
 	<script src="/storybooks-deutschland/js/sbc.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -86,18 +85,17 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('vi,de','de,en,vi')" class="btn btn-lg lang-primary" title="Zwischen Vietnamesisch und Deutsch wechseln">de</button>
 			<button style="display:none" onclick="switchlang('vi,en','de,en,vi')" class="btn btn-lg lang-secondary" title="Zwischen Vietnamesisch und Englisch wechseln">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von"></span> Mlungisi Dlamini, Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von"></span> Phuong Nguyen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon" src="/storybooks-deutschland/css/language.svg" alt="Sprache"></span> <a href="/storybooks-deutschland/stories/vi">Vietnamesisch</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon" src="/storybooks-deutschland/css/level.svg" alt="Niveau"></span> <a href="/storybooks-deutschland/stories/vi/level1">Niveau 1</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/vi/0129/vi-0129_lazy.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von"></span> Mlungisi Dlamini, Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von"></span> Phuong Nguyen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/language.svg" alt="Sprache"></span> <a href="/storybooks-deutschland/stories/vi">Vietnamesisch</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/level.svg" alt="Niveau"></span> <a href="/storybooks-deutschland/stories/vi/level1">Niveau 1</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen"></span> <span class="cover_msg">Zu dieser Geschichte ist noch kein Audio verfügbar.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -119,7 +117,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -148,7 +145,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -177,7 +173,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -206,7 +201,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -235,7 +229,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -264,7 +257,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -297,7 +289,6 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Vorherige Seite"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/vi/0129/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
@@ -344,8 +335,6 @@
 	<a class="btn btn-lg" href="/storybooks-deutschland/stories/vi" class="button">Zurück zur Geschichteliste</a> <a class="btn btn-lg disabled" target="_blank" href="">Schaltfläche PDF</a>
 <br><br>
 </div>
-
-
 
     </div>
 
