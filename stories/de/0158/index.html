@@ -23,9 +23,7 @@
 	<script src="/storybooks-deutschland/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,9 +47,9 @@
 	</section>
 </header>
 
-        <div class="float-"><span class="tooltip tooltip-" data-tooltip="Zu dieser Geschichte ist noch kein PDF verfügbar."><a class="btn btn-lg disabled">Schaltfläche PDF</a></span></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="Zu dieser Geschichte ist noch kein PDF verfügbar."><a class="btn btn-lg disabled">Schaltfläche PDF</a></span></div>
 
-<div class="float-">
+<div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
 		<option selected="" disabled="">Sprache ändern</option>
 		<option value="/storybooks-deutschland/stories/de/0158">Deutsch</option>
@@ -75,6 +73,34 @@
 		<option value="/storybooks-deutschland/stories/vi/0158">Vietnamesisch</option>
 	</select>
 </div>
+
+        <a class="btn btn-lg" href="/storybooks-deutschland/stories/de">Zurück zur Geschichteliste</a><br><br>
+
+<div class="columns" id="text01">
+	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0158/01.jpg"></div>
+	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h1><span class="def">Henne und Adler</span>
+			<span class="l1">Henne und Adler</span>
+		</h1>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Nächste Seite"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Wiedergabe/Pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0158/mp3/01.mp3"></audio>
+			<button onclick="switchlang('de,de','de,de')" class="btn btn-lg lang-primary" title="Zu Deutsch wechseln">de</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Geschrieben von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/pencil.svg" alt="Geschrieben von"></span> Ann Nduku</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustriert von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/art.svg" alt="Illustriert von"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Übersetzt von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/global.svg" alt="Übersetzt von"></span> Anna Westpfahl</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Gelesen von"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/megaphone.svg" alt="Gelesen von"></span> Jula Eberth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Sprache"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/language.svg" alt="Sprache"></span> <a href="/storybooks-deutschland/stories/de">Deutsch</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Niveau"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/level.svg" alt="Niveau"></span> <a href="/storybooks-deutschland/stories/de/level3">Niveau 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Vollständige Geschichte erzählen"><img class="cover-icon cover-icon-audio" src="/storybooks-deutschland/css/speaker.svg" alt="Vollständige Geschichte erzählen"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0158/de-0158_hen.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lesegeschwindigkeit"><img class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/speedometer.svg" alt="Lesegeschwindigkeit" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Lesegeschwindigkeit: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay Geschichte (Beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-deutschland/css/play.svg" alt="Autoplay Geschichte" style="cursor:pointer" onclick="autoplay()"></span></h3>
+	</div>
+</div>
+
+<hr>
 
         <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0158/02.jpg"></div>
@@ -326,6 +352,36 @@
 </div>
 <hr>
 
+
+        <div id="colophon" class="columns">
+	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
+		<h5><span class="colophon-heading">Geschrieben von:</span> Ann Nduku</h5>
+		<h5><span class="colophon-heading">Illustriert von:</span> Wiehan de Jager</h5>
+		<h5><span class="colophon-heading">Übersetzt von:</span> Anna Westpfahl</h5>
+		<h5><span class="colophon-heading">Gelesen von:</span> Jula Eberth</h5>
+		<h5><span class="colophon-heading">Sprache:</span> <a href="/storybooks-deutschland/stories/de">Deutsch</a></h5>
+		<h5><span class="colophon-heading">Niveau:</span> <a href="/storybooks-deutschland/stories/de/level3">Niveau 3</a></h5>
+		<h5><span class="colophon-heading">Quelle:</span> <a href="https://africanstorybook.org/reader.php?id=2084" target="_blank">Hen and Eagle</a> aus <a href="https://africanstorybook.org/">African Storybook</a></h5>
+
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.de" target="_blank"><img alt="Creative Commons Lizenz" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Dieses Werk ist unter einer <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.de" target="_blank">Creative Commons Namensnennung 3.0 Lizenz</a> lizenziert.</div>
+
+	</div>
+	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
+		<h5>Weitere <a href="/storybooks-deutschland/stories/de/level3">Niveau 3</a> Geschichten lesen:</h5>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0110/">Ein winziges Saatkorn: Die Geschichte von Wangari Maathai</a></label>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0066/">Nozibele und die drei Haare</a></label>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0141/">Das Huhn und der Tausendfüßler</a></label>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0201/">Eselskind</a></label>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0315/">Sakimas Lied</a></label>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0006/">Anansi und die Weisheit</a></label>
+			<label class="chip"><a href="/storybooks-deutschland/stories/de/0324/">Als ich mein Zuhause verließ und in die Stadt zog</a></label>
+	</div>
+</div>
+<div>
+<h5>Optionen</h5>
+	<a class="btn btn-lg" href="/storybooks-deutschland/stories/de" class="button">Zurück zur Geschichteliste</a> <span class="tooltip tooltip-top" data-tooltip="Zu dieser Geschichte ist noch kein PDF verfügbar."><a class="btn btn-lg disabled">Schaltfläche PDF</a></span>
+<br><br>
+</div>
 
 
     </div>
